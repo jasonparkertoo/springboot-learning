@@ -1,0 +1,13 @@
+
+server:
+  port: 8083
+spring:
+  config:
+    import: 'configserver:'
+  application:
+    name: lowercase-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

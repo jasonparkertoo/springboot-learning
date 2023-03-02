@@ -1,0 +1,45 @@
+POST http://localhost:8081/api/v1/customer
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "middleInitial": "A",
+  "street": "1 2nd Ave",
+  "city": "Columbus",
+  "state": "Ohio",
+  "zip": "43201",
+  "phone": "1111111111",
+  "email": "a@b.com"
+}
+
+###
+
+GET http://localhost:8081/api/v1/customer?email=a@b.com
+
+###
+
+GET http://localhost:8081/api/v1/customer/all
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8081/api/v1/customer
+Content-Type: application/json
+
+{
+  "firstName": "Peter",
+  "lastName": "Doe",
+  "middleInitial": "A",
+  "street": "1 2nd Ave",
+  "city": "Columbus",
+  "state": "Ohio",
+  "zip": "43201",
+  "phone": "1111111111",
+  "email": "a@abc.com"
+}
+
+###
+
+DELETE http://localhost:8081/api/v1/customer?email=a@b.com
+Content-Type: application/json

@@ -1,0 +1,13 @@
+
+server:
+  port: 8082
+spring:
+  config:
+    import: 'configserver:'
+  application:
+    name: uppercase-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

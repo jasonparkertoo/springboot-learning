@@ -1,0 +1,6 @@
+
+spring:
+  application:
+    name: upper-lower-service
+server:
+  port: 8085

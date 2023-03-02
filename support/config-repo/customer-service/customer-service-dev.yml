@@ -1,0 +1,4 @@
+db:
+  username: postgres
+  password: postgres
+  uri: jdbc:postgresql://localhost:5432/postgres

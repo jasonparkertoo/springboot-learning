@@ -1,0 +1,10 @@
+
+server:
+  port: 8081
+spring:
+  config:
+    import: 'configserver:'
+  liquibase:
+    change-log: classpath:/db/changelog.xml
+  application:
+    name: customer-service

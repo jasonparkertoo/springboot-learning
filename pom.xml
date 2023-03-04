@@ -25,5 +25,6 @@
         <module>user-webapp</module>
         <module>service-registry</module>
         <module>upper-lower-service</module>
+        <module>kafka-service</module>
     </modules>
 </project>

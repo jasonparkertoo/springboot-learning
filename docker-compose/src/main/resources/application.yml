@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  docker:
+    compose:
+      file: docker-compose/docker-compose.yml
